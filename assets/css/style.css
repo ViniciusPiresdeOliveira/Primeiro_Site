@@ -93,7 +93,7 @@ header a:hover{
     border: 1px solid black;
     border-radius: 8px;
     margin: 20px 0;
-    box-shadow: 0 0 1em rgb(0, 0, 0);
+    box-shadow: 0 0 1em black;
     transition: transform 0.25s linear;
 }
 .cards:hover{
@@ -157,11 +157,15 @@ header a:hover{
     margin: 20px auto;
 
 }
+.container-news h3{
+    width: 95%;
+    text-align: center;
+}
 .container-news .formulario{
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     padding: 20px;
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
