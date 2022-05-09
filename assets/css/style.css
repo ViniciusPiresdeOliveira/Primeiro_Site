@@ -93,6 +93,11 @@ header a:hover{
     border: 1px solid black;
     border-radius: 8px;
     margin: 20px 0;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+    transition: transform 0.25s linear;
+}
+.cards:hover{
+    transform: scale(1.1);
 }
 
 .cards img {
@@ -100,6 +105,7 @@ header a:hover{
     object-fit: cover;
     width: 100%;
     border-radius: 6px 6px 0 0;
+    
 }
 
 .cards p {
@@ -132,6 +138,11 @@ header a:hover{
     width: 200px;
     height: 200px;
     border-radius: 100%;
+    box-shadow: 5px 5px 5px black;
+}
+.foto-nova img:hover{
+    transform: scale(1.1);
+    transition: transform 0.15s linear;
 }
 .foto p{
     font-weight: 700;
@@ -196,7 +207,9 @@ footer p:first-child{
 .creditos{
     margin-bottom: 11px;
     font-size: 18px;
-
+}
+.copyright{
+    font-style: italic;
 }
 @media screen and (min-width:500px) {
     .container-cards {
