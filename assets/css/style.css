@@ -49,6 +49,7 @@ header a:hover{
     justify-content: right;
     list-style: none;
     padding: 1rem;
+    padding-top: 25px;
     gap: 10px;
 }
 
