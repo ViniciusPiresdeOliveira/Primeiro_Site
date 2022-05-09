@@ -209,6 +209,7 @@ footer p:first-child{
     margin-bottom: 8px;
 }
 .creditos{
+    text-align: center;
     margin-bottom: 11px;
     font-size: 18px;
 }
@@ -263,5 +264,8 @@ footer p:first-child{
         font-weight: bold;
         font-size: 22px;
         margin-left: 29px;
+    }
+    .creditos{
+        text-align: left;
     }
 }
