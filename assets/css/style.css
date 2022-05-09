@@ -11,7 +11,7 @@ body {
 }
 
 header, footer {
-    background-color: #000000;
+    background-color: black;
     padding: 10px 1rem;
     display: flex;
     flex-direction: column;
@@ -85,12 +85,12 @@ header a:hover{
     height: 2px;
     width: 96%;
     margin: auto;
-    background-color: #000000;
+    background-color: black;
 }
 
 .cards {
     width: 200px;
-    border: 1px solid#333;
+    border: 1px solid black;
     border-radius: 8px;
     margin: 20px 0;
 }
@@ -99,7 +99,7 @@ header a:hover{
     height: 200px;
     object-fit: cover;
     width: 100%;
-    border-radius: 8px 8px 0 0;
+    border-radius: 6px 6px 0 0;
 }
 
 .cards p {
@@ -108,7 +108,7 @@ header a:hover{
 }
 
 .cards a {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     color: #fff;
     border-radius: 5px;
     text-decoration: none;
@@ -147,7 +147,7 @@ header a:hover{
 
 }
 .container-news .formulario{
-    border: 1px solid #333;
+    border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
     width: 100%;
@@ -159,7 +159,7 @@ header a:hover{
 
 }
 .container-news .formulario input:not(input[type="checkbox"]){
-    border: 1px solid #333;
+    border: 1px solid black;
     border-radius: 5px;
     margin-bottom: 16px;
     width: 100%;
@@ -182,6 +182,9 @@ header a:hover{
     width: 90%;
     padding: 10px;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
 }
 footer{
     color: #fff;
@@ -189,6 +192,11 @@ footer{
 }    
 footer p:first-child{
     margin-bottom: 8px;
+}
+.creditos{
+    margin-bottom: 11px;
+    font-size: 18px;
+
 }
 @media screen and (min-width:500px) {
     .container-cards {
@@ -215,9 +223,8 @@ footer p:first-child{
     }
 
     .cards {
-        margin: 30px 0;
+        margin: 10px 0;
     }
-
     .foto {
         flex-direction: row;
         justify-content: space-between;
@@ -236,6 +243,8 @@ footer p:first-child{
     }
     .titulosecao {
         text-align: left;
+        font-weight: bold;
+        font-size: 22px;
         margin-left: 29px;
     }
 }
