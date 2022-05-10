@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: #e3e3d7;
