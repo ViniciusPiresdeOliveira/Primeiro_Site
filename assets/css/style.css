@@ -173,12 +173,14 @@ header {
     width: 200px;
     height: 200px;
     border-radius: 100%;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 10px 10px 10px black;
+    transition: transform 0.15s linear;
+
 }
 
 .foto-nova img:hover {
     transform: scale(1.1);
-    transition: transform 0.15s linear;
+    
 }
 
 .foto p {
